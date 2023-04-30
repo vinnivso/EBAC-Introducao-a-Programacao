@@ -8,9 +8,9 @@ const verify = (parameter) => {
   }
 
   if (parameter % 2 === 0) {
-    console.log(`EVEN NUMBER`)
+    return `EVEN NUMBER`
   } else {
-    console.log(`ODD NUMBER`)
+    return `ODD NUMBER`
   }
 }
 console.log(verify(7))

@@ -3,8 +3,7 @@ const iterator = (firstParameter) => {
     return `INVALID ARGUMENT`
   }
   for (let i = 1; i <= firstParameter ; i++) {
-    let result = firstParameter + i
-    console.log(result)
+    console.log(firstParameter + i)
   }
 }
 
