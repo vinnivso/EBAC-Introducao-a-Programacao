@@ -4,17 +4,17 @@ const verify = (firstParameter, secondParameter) => {
   if(firstParameter >= secondParameter) {
     const module = firstParameter % secondParameter
     if (module === 0) {
-      console.log(`Divisors`)
+      return `Divisors`
     } else {
-      console.log(`Not Divisors`)
+      return `Not Divisors`
     }
   }
   if(firstParameter < secondParameter) {
     const module = secondParameter % firstParameter
     if (module === 0) {
-      console.log(`Divisors`)
+      return `Divisors`
     } else {
-      console.log(`Not Divisors`)
+      return `Not Divisors`
     }
   }
 }

@@ -3,14 +3,12 @@ const cotacao = () => {
   const secondQuestion = +(prompt(`Insira o valor`))
   switch (question) {
     case '1':
-      console.log(`U$ ${(secondQuestion / 4.6).toFixed(2)}`)
-      break;
+      return `U$ ${(secondQuestion / 4.6).toFixed(2)}`
       case '2':
-        console.log(`R$ ${(secondQuestion * 4.6).toFixed(2)}`)
-        break;
+        return `R$ ${(secondQuestion * 4.6).toFixed(2)}`
+
     default:
-      console.log(`Insira uma informação de opção válida`)
-      break;
+      return `Insira uma informação de opção válida`
   }
 }
 console.log(cotacao())
